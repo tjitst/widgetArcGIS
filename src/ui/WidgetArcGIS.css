@@ -1,6 +1,3 @@
-/*
-Place your custom CSS here
-*/
-.widget-hello-world {
+/* importeren van de styling vanuit arcgis. Hiermee worden de ArcGIS widgets gestyled op de juiste manier. Je kunt light en dark veranderen om het thema te veranderen. */
+@import "https://js.arcgis.com/4.23/@arcgis/core/assets/esri/themes/light/main.css"; 
 
-}
