@@ -1,15 +1,14 @@
 import { createElement } from "react";
 
-import { HelloWorldSample } from "./components/HelloWorldSample";
 import "./ui/WidgetArcGIS.css";
+import ArcGISMap from "./components/ArcGisMap";
 
-export function WidgetArcGIS({ sampleText }) {
+export function WidgetArcGIS(props) {
     return (
     <div>
-        <div>hallo</div>
+        <ArcGISMap/>
+        
 
-        <div> <HelloWorldSample sampleText={sampleText} /> </div>
-
-     </div>
+    </div>
     );
 }
